@@ -9,22 +9,22 @@ Sections marked as nice to have (NTH), are not expected in this scope, and can b
 * Use mySQL as you database.
 
 ## Spec:
-Candidate has a name
-Candidate has multiple tech skills *(from technologies list - can be currently a limited hardcoded list of strings)*
-Candidate has multiple expectations:
+Candidate has a name  
+Candidate has multiple tech skills *(from technologies list - can be currently a limited hardcoded list of strings)*  
+Candidate has multiple expectations:  
 * Tech stack *(from technologies list)*
 * Salary *(minimum required)*
 * **NTH** - Location - *(from a cities list - can be currently a limited hardcoded list of strings)*
 * More in the future...
 
-Employer has a name
-Employer has multiple Positions
-Position has a title and: 
+Employer has a name  
+Employer has multiple Positions  
+Position has a title and:  
 * Tech stack - Serves both as required skills and as tech stack to fulfill candidate expectation.
 * Salary *(maximum possible)*
 * **NTH** - Location (from cities list)
 
-A Process is between a Candidate and Position
+Process is between a Candidate and Position  
 Process has the following available statuses:
 * New
 * Accepted 
