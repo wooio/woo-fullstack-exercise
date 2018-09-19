@@ -2,7 +2,7 @@
 Sections marked as nice to have (NTH), are not expected in this scope, and can be omitted or replaced with stubs.
 
 ## Tech notes:
-* Create a Single page application using either AngularJS or Angular 2 for the front end.
+* Create a responsive single page application using either AngularJS or Angular 2 for the front end.
 * Use Java 8 (or higher) for your Backend.
 * Use Spring Spring IoC container and beans
 * Use Hibernate as your persistence layer and ORM.
@@ -46,7 +46,7 @@ Expectation fulfillment *(when is an expectation considered fulfilled)*
 * When a candidate accepts a “New” process, the system should search for a new match to create.
 * **A candidate can only have x (currently 1) processes in status “New” at any given moment.**
 
-### User Interface:
+### User Interface (See screenshots in the repository):
 * Candidate can choose to view a list of all his Processes.
 * Candidate can choose to view only the “New” Processes.
 * Candidate can accept or reject a new Process.
