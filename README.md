@@ -41,7 +41,7 @@ Expectation fulfillment *(when is an expectation considered fulfilled)*
 * **NTH** - Salary - Position salary >= Candidate expected salary
 * **NTH** - Location - same city.
 
-### Matching - 
+### Matching:
 * A scheduled task running once an hour will search for matches and create new processes accordingly.
 * When a candidate accepts a “New” process, the system should search for a new match to create.
 * **A candidate can only have x (currently 1) processes in status “New” at any given moment.**
