@@ -4,7 +4,7 @@ Sections marked as nice to have (NTH), are not expected in this scope, and can b
 ## Tech notes:
 * Create a responsive single page application using either AngularJS or Angular 2 for the front end.
 * Use Java 8 (or higher) for your Backend.
-* Use Spring Spring IoC container and beans
+* Use Spring IoC container and beans
 * Use Hibernate as your persistence layer and ORM.
 * Use mySQL as you database.
 
