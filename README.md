@@ -61,6 +61,6 @@ For each process the following details will be shown:
 * For new processes Accept/Reject button
 * **NTH** - Time when process started
 
-**NOTE:** Exact font, color or spacing is not critical. Layout, positioning and alignment is.
+**NOTE:** Exact font, color or spacing is not critical. But layout, positioning and alignment is.
 ### Bonus:
 Add examples for tests (server and client side).
