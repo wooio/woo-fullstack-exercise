@@ -2,7 +2,8 @@
 Sections marked as nice to have (NTH), are not expected in this scope, and can be omitted or replaced with stubs.
 
 ## Tech notes:
-* Create a responsive single page application using either AngularJS or Angular 2 for the front end.
+* Create a responsive single page application using either AngularJS or Angular for the front end.
+* Preferably use TypeScript over JavaScript.
 * Use Java 8 (or higher) for your Backend.
 * Use Spring IoC container and beans
 * Use Hibernate as your persistence layer and ORM.
