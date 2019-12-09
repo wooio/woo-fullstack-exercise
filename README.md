@@ -43,9 +43,9 @@ Expectation fulfillment *(when is an expectation considered fulfilled)*
 * **NTH** - Location - same city.
 
 ### Matching:
+* **A candidate should only have x (currently 1) processes in status “New” at any given moment.**
 * A scheduled task running once an hour will search for matches and create new processes accordingly.
-* When a candidate accepts a “New” process, the system should search for a new match to create.
-* **A candidate can only have x (currently 1) processes in status “New” at any given moment.**
+* In addition, when a candidate accepts a “New” process, the system should search for a new match to create.
 
 ### User Interface (See screenshots in the repository):
 * Candidate can choose to view a list of all his Processes.
