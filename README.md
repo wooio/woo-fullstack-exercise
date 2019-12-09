@@ -32,8 +32,8 @@ Process has the following available statuses:
 * Rejected
 
 Match Score - A Candidate and position with a score higher than 75 is considered a match.
-* Skills score - percentage of the position tech stack a candidate possesses as skills *(max 25 pts)*
-* Tech stack score - percentage of fulfilled tech stack expectations *(max 25 pts)*
+* Skills score - percentage of the position tech stack a candidate possesses as skills * 25 *(max 25 pts)*
+* Tech stack score - percentage of fulfilled tech stack expectations * 25 *(max 25 pts)*
 * **NTH** - Salary score -  *((Position salary / Candidate expected salary) * 25)  (max 25 pts)*
 * **NTH** - Location score - same city = 25 pts. *same country = 10 pts.  *(max = 25 pts)*
 
