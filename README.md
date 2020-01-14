@@ -13,17 +13,17 @@ Sections marked as nice to have (NTH), are not expected in this scope, and can b
 
 ### Data Model
 Candidate has a name  
-Candidate has multiple tech skills *(from technologies list - can be currently a limited hardcoded list of strings)*  
+Candidate has multiple tech skills
 Candidate has multiple expectations:  
-* Tech stack *(from technologies list)*
+* Tech stack
 * Salary *(minimum required)*
-* **NTH** - Location - *(from a cities list - can be currently a limited hardcoded list of strings)*
+* **NTH** - Location
 * More in the future...
 
 Employer has a name  
 Employer has multiple Positions  
 Position has a title and:  
-* Tech stack - Serves both as required skills and as tech stack to fulfill candidate expectation.
+* Tech stack - Serves both as required skills and as tech stack to fulfill candidate tech stack expectation.
 * Salary *(maximum possible)*
 * **NTH** - Location (from cities list)
 
