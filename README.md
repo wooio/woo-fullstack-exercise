@@ -50,10 +50,6 @@ For each process the following details will be shown:
 **NOTE:** Exact font, color or spacing is not critical. But layout, positioning and alignment is.
 
 ### Matching:
-* **A candidate should only have x (currently 1) processes in status “New” at any given moment.**
-* A scheduled task running once an hour will search for matches and create new processes accordingly.
-* In addition, when a candidate accepts a “New” process, the system should search for a new match to create.
-
 Match Score - A Candidate and position with a score higher than 75 is considered a match.
 * Skills score - percentage of the position tech stack a candidate possesses as skills * 25 *(max 25 pts)*
 * Tech stack score - percentage of fulfilled tech stack expectations * 25 *(max 25 pts)*
@@ -64,6 +60,10 @@ Expectation fulfillment *(when is an expectation considered fulfilled)*
 * Technologies - More than half of required technologies exist in the position.
 * **NTH** - Salary - Position salary >= Candidate expected salary
 * **NTH** - Location - same city.
+
+* **A candidate should only have x (currently 1) processes in status “New” at any given moment.**
+* A scheduled task running once an hour will search for matches and create new processes accordingly.
+* In addition, when a candidate accepts a “New” process, the system should search for a new match to create.
 
 ### Bonus:
 Add examples for tests (server and client side).
