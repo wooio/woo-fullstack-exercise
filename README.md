@@ -31,27 +31,10 @@ Process has the following available statuses:
 * Accepted 
 * Rejected
 
-Match Score - A Candidate and position with a score higher than 75 is considered a match.
-* Skills score - percentage of the position tech stack a candidate possesses as skills * 25 *(max 25 pts)*
-* Tech stack score - percentage of fulfilled tech stack expectations * 25 *(max 25 pts)*
-* **NTH** - Salary score -  *((Position salary / Candidate expected salary) * 25)  (max 25 pts)*
-* **NTH** - Location score - same city = 25 pts. *same country = 10 pts.  *(max = 25 pts)*
-
-Expectation fulfillment *(when is an expectation considered fulfilled)*
-* Technologies - More than half of required technologies exist in the position.
-* **NTH** - Salary - Position salary >= Candidate expected salary
-* **NTH** - Location - same city.
-
-### Matching:
-* **A candidate should only have x (currently 1) processes in status “New” at any given moment.**
-* A scheduled task running once an hour will search for matches and create new processes accordingly.
-* In addition, when a candidate accepts a “New” process, the system should search for a new match to create.
-
 ### User Interface (See screenshots in the repository):
 * Candidate can choose to view a list of all his Processes.
-* Candidate can choose to view only the “New” Processes.
+* **NTH** - Candidate can choose to view only the “New” Processes.
 * Candidate can accept or reject a new Process.
-* **NTH** - Candidate can choose to view only the “Accepted” Processes.
 
 For each process the following details will be shown:
 * Position title
@@ -63,5 +46,22 @@ For each process the following details will be shown:
 * **NTH** - Time when process started
 
 **NOTE:** Exact font, color or spacing is not critical. But layout, positioning and alignment is.
+
+### Matching:
+* **A candidate should only have x (currently 1) processes in status “New” at any given moment.**
+* A scheduled task running once an hour will search for matches and create new processes accordingly.
+* In addition, when a candidate accepts a “New” process, the system should search for a new match to create.
+
+Match Score - A Candidate and position with a score higher than 75 is considered a match.
+* Skills score - percentage of the position tech stack a candidate possesses as skills * 25 *(max 25 pts)*
+* Tech stack score - percentage of fulfilled tech stack expectations * 25 *(max 25 pts)*
+* **NTH** - Salary score -  *((Position salary / Candidate expected salary) * 25)  (max 25 pts)*
+* **NTH** - Location score - same city = 25 pts. same country = 10 pts.  *(max = 25 pts)*
+
+Expectation fulfillment *(when is an expectation considered fulfilled)*
+* Technologies - More than half of required technologies exist in the position.
+* **NTH** - Salary - Position salary >= Candidate expected salary
+* **NTH** - Location - same city.
+
 ### Bonus:
 Add examples for tests (server and client side).
