@@ -13,7 +13,7 @@ Sections marked as nice to have (NTH), are not expected in this scope, and can b
 
 ### Data Model
 Candidate has a name  
-Candidate has multiple tech skills
+Candidate has multiple tech skills  
 Candidate has multiple expectations:  
 * Tech stack
 * Salary *(minimum required)*
