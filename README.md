@@ -10,6 +10,8 @@ Sections marked as nice to have (NTH), are not expected in this scope, and can b
 * Use mySQL as you database.
 
 ## Spec:
+
+### Data Model
 Candidate has a name  
 Candidate has multiple tech skills *(from technologies list - can be currently a limited hardcoded list of strings)*  
 Candidate has multiple expectations:  
